@@ -14,7 +14,9 @@ class _OnboardingState extends State<Onboarding> {
       itemBuilder: (_, i) {
         return Column(
           children: [
-            SvgPicture.asset('images/1.svg'),
+            Image.asset(
+              'assets/images/1.jpg',
+            )
           ],
         );
       },
